@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700;800&display=swap');
+
+body {
+    background-color: #222;
+}
+
+.coinLogo {
+    text-align: center;
+    height: 115px;
+}
+
+.coinLogo img {
+    width: 150px;
+    transform: rotate(35deg);
+    margin-top: 20px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+#horizontalWidget {
+    font-family: 'Nunito', sans-serif;
+    color: #000;
+    font-weight: 500;
+    width: 250px;
+    height: 320px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background-color: #fff;
+    position: relative;
+}
+
+.widgetHead {
+    height: 60px;
+}
+
+.widgetBody {
+    height: 100px;
+}
+
+.widgetBody img {
+    width: 100%;
+    height: auto;
+}
+
+.coinTicker {
+    font-weight: 800;
+    font-size: 16px;
+    margin: 0;
+}
+
+.coinName {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tickerName {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.coinName, .time, .col3 span {
+    color: #787b85;
+}
+
+.variation {
+    color: #22ab93;
+}
+
+.CurrentPrice {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.coinInfo {
+    display: inline-flex;
+    float: left;
+}
+
+.coinPrice {
+    float: left;
+    text-align: right;
+}
+
+.coinPrice span {
+    font-size: 12px;
+}
+
+.col3 {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.col3 span {
+    font-size: 12px;
+}
+
+.col3 p {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.widgetFooter {
+    border-top: 1px solid rgba(120, 123, 133, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.widgetFooter p, .widgetFooter img {
+    display: inline-flex;
+    margin: 5px 0;
+}
+
+.widgetFooter p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.widgetFooter img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .coinPrice, .tickerName {
+        margin-top: 5px;
+    }
+    .coinTicker, .coinName {
+        font-size: 14px;
+    }
+    .CurrentPrice {
+        font-size: 14px;
+        margin-top: 0;
+    }
+}
